@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b5387a4783803210c31199c0deaad3b2" extends="task" label="Reimbursement" max_length="40" name="x_1795292_reimbu_0_reimbursement" type="collection">
+        <element label="Spending Date" max_length="40" name="spending_date" type="glide_date"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Category type" max_length="32" name="category_type" reference="x_1795292_reimbu_0_reimbursement_category" type="reference"/>
         <element default="0" label="Value_BRL" max_length="255" name="value_brl" type="float"/>
+        <element label="Value_Reim" max_length="40" name="value_reim" type="string"/>
         <element label="Direct Manager" max_length="32" name="direct_manager" reference="sys_user" type="reference"/>
         <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
         <element default="0" label="Value_USD" max_length="255" name="value_usd" type="float"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>US date validation</name>
+        <regex>^(199[0-9]|200[0-9]|201[0-9]|202[0-5])/(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])$&#13;
+</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 18:14:32</sys_created_on>
+        <sys_id>de90778b83843210c31199c0deaad39d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>US date validation</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>question_regex_de90778b83843210c31199c0deaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 18:38:44</sys_updated_on>
+        <validation_message>Invalid Date!</validation_message>
+    </question_regex>
+    <sys_translated_text action="delete_multiple" query="documentkey=de90778b83843210c31199c0deaad39d"/>
+</record_update>
