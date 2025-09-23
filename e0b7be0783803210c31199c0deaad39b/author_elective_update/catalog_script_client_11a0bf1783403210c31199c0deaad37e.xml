@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Reimbursement Now">30f26b4b83443210c31199c0deaad3be</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Refund date up to today</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+    try {
+        // Pega o controle (input) do campo spending_date
+        var control = g_form.getControl('spending_date');
+
+        if (control) {
+            // Define mínimo
+            control.setAttribute("min", "1990-01-01");
+
+            // Define máximo = hoje
+            var today = new Date().toISOString().split("T")[0];
+            control.setAttribute("max", today);
+        }
+
+    } catch (e) {
+        g_form.addInfoMessage("Erro ao aplicar restrição de datas: " + e.message);
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:54:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11a0bf1783403210c31199c0deaad37e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Refund date up to today</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>catalog_script_client_11a0bf1783403210c31199c0deaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 13:04:33</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="DELETE">
+        <id>11a0bf1783403210c31199c0deaad37e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:54:21</sys_created_on>
+        <sys_id>0801731783403210c31199c0deaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:54:21</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>catalog_script_client_11a0bf1783403210c31199c0deaad37e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Reimbursement Now"&gt;30f26b4b83443210c31199c0deaad3be&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Refund date up to today&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    try {
+        // Pega o controle (input) do campo spending_date
+        var control = g_form.getControl('spending_date');
+
+        if (control) {
+            // Define mínimo
+            control.setAttribute("min", "1990-01-01");
+
+            // Define máximo = hoje
+            var today = new Date().toISOString().split("T")[0];
+            control.setAttribute("max", today);
+        }
+
+    } catch (e) {
+        g_form.addInfoMessage("Erro ao aplicar restrição de datas: " + e.message);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 12:54:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;11a0bf1783403210c31199c0deaad37e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Refund date up to today&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0"&gt;e0b7be0783803210c31199c0deaad39b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reimbursement Now"&gt;e0b7be0783803210c31199c0deaad39b&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_11a0bf1783403210c31199c0deaad37e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 13:04:33&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;11a0bf1783403210c31199c0deaad37e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 12:54:21&lt;/sys_created_on&gt;&lt;sys_id&gt;0801731783403210c31199c0deaad363&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 12:54:21&lt;/sys_updated_on&gt;&lt;table&gt;catalog_script_client&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2001530353</payload_hash>
+        <record_name>Refund date up to today</record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 13:04:36</sys_created_on>
+        <sys_id>d653771b83403210c31199c0deaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19976ad0b930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 13:04:36</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>5e53771b45403210b49347ab92a8f79b</update_guid>
+        <update_guid_history>5e53771b45403210b49347ab92a8f79b:2001530353,0f03ffd7144032109ca170d76c762d05:1207161828,c472f3d7b14032101c33eb8f6cb47a76:2026977319,59227f578240321031eb468283d5ea51:1200056186,b00177577c403210896cf5ea8dc31796:-972902230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Refund date up to today">a65437d783403210c31199c0deaad308</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 13:09:00</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>69464760e64f4f8e9ba0c897bb6247e4</sys_id>
+        <sys_metadata>11a0bf1783403210c31199c0deaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund date up to today</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>catalog_script_client_11a0bf1783403210c31199c0deaad37e</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_11a0bf1783403210c31199c0deaad37e">d653771b83403210c31199c0deaad39c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 13:09:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

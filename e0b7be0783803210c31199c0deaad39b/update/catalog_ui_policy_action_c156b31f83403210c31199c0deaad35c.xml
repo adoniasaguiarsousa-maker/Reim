@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Reimbursement Now">30f26b4b83443210c31199c0deaad3be</catalog_item>
+        <catalog_variable>IO:81ec230783843210c31199c0deaad3a1</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message>Invalid date!!!</field_message>
+        <field_message_type>warning</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 13:18:14</sys_created_on>
+        <sys_id>c156b31f83403210c31199c0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spending_date</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c156b31f83403210c31199c0deaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 13:18:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Validate refund date, up to doday">32a577db83403210c31199c0deaad397</ui_policy>
+        <value/>
+        <value_action>clear_value</value_action>
+        <variable>spending_date</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=c156b31f83403210c31199c0deaad35c"/>
+</record_update>
