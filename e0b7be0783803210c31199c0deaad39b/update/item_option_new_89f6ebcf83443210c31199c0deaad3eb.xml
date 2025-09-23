@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>value_reim</field>
+        <field>value_refund</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -42,7 +42,7 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>Reimburser_Value</name>
+        <name>value_refund</name>
         <not_available_conversation>false</not_available_conversation>
         <order>100</order>
         <post_insert_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-22 17:35:11</sys_created_on>
         <sys_id>89f6ebcf83443210c31199c0deaad3eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>How much would like to Reimburser ?</sys_name>
         <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
         <sys_update_name>item_option_new_89f6ebcf83443210c31199c0deaad3eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 17:35:11</sys_updated_on>
+        <sys_updated_on>2025-09-23 20:20:38</sys_updated_on>
         <table/>
         <tooltip>How much exactly did you spend?</tooltip>
         <topic_block/>
@@ -95,7 +95,7 @@
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex/>
+        <validate_regex display_value="currency regex">deb659e783483210c31199c0deaad3ef</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
