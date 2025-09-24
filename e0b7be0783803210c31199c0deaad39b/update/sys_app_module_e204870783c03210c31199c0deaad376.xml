@@ -14,18 +14,18 @@
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1795292_reimbu_0_reimbursement_category</name>
         <order>100</order>
-        <override_menu_roles>false</override_menu_roles>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1795292_reimbu_0.admin</roles>
+        <roles>x_1795292_reimbu_0.hr_manager</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-22 15:01:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e204870783c03210c31199c0deaad376</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Reimbursement Categories</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
         <sys_update_name>sys_app_module_e204870783c03210c31199c0deaad376</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 15:08:21</sys_updated_on>
+        <sys_updated_on>2025-09-24 21:04:58</sys_updated_on>
         <timeline_page/>
         <title>Reimbursement Categories</title>
         <uncancelable>false</uncancelable>

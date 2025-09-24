@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="teste teste">bb4051bf83803210c31199c0deaad37e</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:29:14</sys_created_on>
+        <sys_id>ff4051bf83803210c31199c0deaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.teste teste</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ff4051bf83803210c31199c0deaad380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:29:14</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>sc_cat_item_catalog_ff4051bf83803210c31199c0deaad380</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="teste teste">bb4051bf83803210c31199c0deaad37e</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-24 14:29:14</sys_created_on><sys_id>ff4051bf83803210c31199c0deaad380</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.teste teste</sys_name><sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package><sys_policy/><sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope><sys_update_name>sc_cat_item_catalog_ff4051bf83803210c31199c0deaad380</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-24 14:29:14</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>681778132</payload_hash>
+        <record_name>Service Catalog.teste teste</record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:29:14</sys_created_on>
+        <sys_id>fb40d5bf83803210c31199c0deaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997c20e3f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:29:14</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ff40d5bf968032103ecb51b83d1646d4</update_guid>
+        <update_guid_history>ff40d5bf968032103ecb51b83d1646d4:681778132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.teste teste">d3c4197783c03210c31199c0deaad30e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:48:51</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>dbe8cc0f624c42008d58179a7f1dc100</sys_id>
+        <sys_metadata>ff4051bf83803210c31199c0deaad380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.teste teste</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent display_value="">bb4051bf83803210c31199c0deaad37e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ff4051bf83803210c31199c0deaad380</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ff4051bf83803210c31199c0deaad380">fb40d5bf83803210c31199c0deaad3d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:48:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

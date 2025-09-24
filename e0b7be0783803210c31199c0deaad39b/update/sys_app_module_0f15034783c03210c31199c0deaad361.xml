@@ -18,7 +18,7 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1795292_reimbu_0.admin,x_1795292_reimbu_0.resolver</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-22 15:04:06</sys_created_on>

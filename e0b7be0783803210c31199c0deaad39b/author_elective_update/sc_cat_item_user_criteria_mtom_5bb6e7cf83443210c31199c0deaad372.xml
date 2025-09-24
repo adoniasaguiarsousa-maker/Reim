@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Reimbursement Now">30f26b4b83443210c31199c0deaad3be</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:31:01</sys_created_on>
+        <sys_id>5bb6e7cf83443210c31199c0deaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement Now.Refund Applicant Users </sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_5bb6e7cf83443210c31199c0deaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:31:01</sys_updated_on>
+        <user_criteria display_value="Refund Applicant Users ">af86ef8f83443210c31199c0deaad3db</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_5bb6e7cf83443210c31199c0deaad372</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Reimbursement Now">30f26b4b83443210c31199c0deaad3be</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 17:31:01</sys_created_on><sys_id>5bb6e7cf83443210c31199c0deaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reimbursement Now.Refund Applicant Users </sys_name><sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package><sys_policy/><sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_5bb6e7cf83443210c31199c0deaad372</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 17:31:01</sys_updated_on><user_criteria display_value="Refund Applicant Users ">af86ef8f83443210c31199c0deaad3db</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1086746414</payload_hash>
+        <record_name>Reimbursement Now.Refund Applicant Users </record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:31:02</sys_created_on>
+        <sys_id>97b6e7cf83443210c31199c0deaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199727a9d660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:31:02</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>9bb6e7cf97443210572361d57f8fbd75</update_guid>
+        <update_guid_history>9bb6e7cf97443210572361d57f8fbd75:1086746414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reimbursement Now.Refund Applicant Users ">ed2699a783483210c31199c0deaad32d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 20:16:17</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>62f58f88dd5142148c676a1b3eda5081</sys_id>
+        <sys_metadata>5bb6e7cf83443210c31199c0deaad372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement Now.Refund Applicant Users </sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_5bb6e7cf83443210c31199c0deaad372</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_5bb6e7cf83443210c31199c0deaad372">97b6e7cf83443210c31199c0deaad376</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 20:16:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

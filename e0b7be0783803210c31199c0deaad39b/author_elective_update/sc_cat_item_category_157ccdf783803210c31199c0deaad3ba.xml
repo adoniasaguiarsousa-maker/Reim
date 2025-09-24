@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="New RP">bc0c8df783803210c31199c0deaad3fd</sc_cat_item>
+        <sc_category display_value="Hardware">d258b953c611227a0146101fb1be7c31</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:12:24</sys_created_on>
+        <sys_id>157ccdf783803210c31199c0deaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware.New RP</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>sc_cat_item_category_157ccdf783803210c31199c0deaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:12:24</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>sc_cat_item_category_157ccdf783803210c31199c0deaad3ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="New RP">bc0c8df783803210c31199c0deaad3fd</sc_cat_item><sc_category display_value="Hardware">d258b953c611227a0146101fb1be7c31</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-24 14:12:24</sys_created_on><sys_id>157ccdf783803210c31199c0deaad3ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware.New RP</sys_name><sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package><sys_policy/><sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope><sys_update_name>sc_cat_item_category_157ccdf783803210c31199c0deaad3ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-24 14:12:24</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-499435303</payload_hash>
+        <record_name>Hardware.New RP</record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:12:24</sys_created_on>
+        <sys_id>d97c893b83803210c31199c0deaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997c117cac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:12:24</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>dd7c893b3b8032102528da32247463fd</update_guid>
+        <update_guid_history>dd7c893b3b8032102528da32247463fd:-499435303</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware.New RP">ebd4597783c03210c31199c0deaad3d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:49:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>1586e0bef1314368897c82633cf7c090</sys_id>
+        <sys_metadata>157ccdf783803210c31199c0deaad3ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware.New RP</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_157ccdf783803210c31199c0deaad3ba</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_157ccdf783803210c31199c0deaad3ba">d97c893b83803210c31199c0deaad3fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:49:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

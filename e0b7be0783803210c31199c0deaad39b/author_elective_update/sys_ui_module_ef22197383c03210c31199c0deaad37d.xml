@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Reimbursement Category New">6b22197383c03210c31199c0deaad37a</application>
+        <filter/>
+        <name>Reimbursement Category News</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1795292_reimbu_0.reimbursement_category_new_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:37:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef22197383c03210c31199c0deaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement Category News</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>sys_ui_module_ef22197383c03210c31199c0deaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:37:25</sys_updated_on>
+        <table>x_1795292_reimbu_0_reimbursement_category_new</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>sys_ui_module_ef22197383c03210c31199c0deaad37d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reimbursement Category New">6b22197383c03210c31199c0deaad37a</application><filter/><name>Reimbursement Category News</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1795292_reimbu_0.reimbursement_category_new_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-24 14:37:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ef22197383c03210c31199c0deaad37d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reimbursement Category News</sys_name><sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package><sys_policy/><sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope><sys_update_name>sys_ui_module_ef22197383c03210c31199c0deaad37d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-24 14:37:25</sys_updated_on><table>x_1795292_reimbu_0_reimbursement_category_new</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>474507440</payload_hash>
+        <record_name>Reimbursement Category News</record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:37:25</sys_created_on>
+        <sys_id>a322197383c03210c31199c0deaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997c2861dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:37:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a7221973a7c03210dc1fe95de097f080</update_guid>
+        <update_guid_history>a7221973a7c03210dc1fe95de097f080:474507440</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 14:48:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>acd71568351445c290e228e818853964</sys_id>
+        <sys_metadata>ef22197383c03210c31199c0deaad37d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement Category News</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>sys_ui_module_ef22197383c03210c31199c0deaad37d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_ef22197383c03210c31199c0deaad37d">a322197383c03210c31199c0deaad381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 14:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,7 +2,7 @@
     <element db_object_id="538b7e4b83803210c31199c0deaad3dd" label="Reimbursement Category" max_length="40" name="x_1795292_reimbu_0_reimbursement_category" type="collection">
         <element label="Resolver group" max_length="32" name="resolver_group" reference="sys_user_group" type="reference"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
-        <element display="true" label="Category Name" max_length="250" name="category_name" type="string"/>
+        <element label="Category Name" max_length="250" name="category_name" type="string"/>
         <index name="index">
             <element name="resolver_group"/>
         </index>

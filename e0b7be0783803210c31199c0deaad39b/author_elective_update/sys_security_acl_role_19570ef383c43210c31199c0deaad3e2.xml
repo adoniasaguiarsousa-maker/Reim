@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 18:30:08</sys_created_on>
+        <sys_id>19570ef383c43210c31199c0deaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1795292_reimbu_0.hr_manager</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_security_acl display_value="">b0578ef383c43210c31199c0deaad312</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_19570ef383c43210c31199c0deaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 18:30:08</sys_updated_on>
+        <sys_user_role display_value="x_1795292_reimbu_0.hr_manager" name="x_1795292_reimbu_0.hr_manager">e9cd69f383443210c31199c0deaad328</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>sys_security_acl_role_19570ef383c43210c31199c0deaad3e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-24 18:30:08</sys_created_on><sys_id>19570ef383c43210c31199c0deaad3e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1795292_reimbu_0.hr_manager</sys_name><sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package><sys_policy/><sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope><sys_security_acl display_value="">b0578ef383c43210c31199c0deaad312</sys_security_acl><sys_update_name>sys_security_acl_role_19570ef383c43210c31199c0deaad3e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-24 18:30:08</sys_updated_on><sys_user_role display_value="x_1795292_reimbu_0.hr_manager" name="x_1795292_reimbu_0.hr_manager">e9cd69f383443210c31199c0deaad328</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1181742587</payload_hash>
+        <record_name>.x_1795292_reimbu_0.hr_manager</record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 18:30:08</sys_created_on>
+        <sys_id>e477823783c43210c31199c0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997cfd71090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 18:30:08</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e8778237e9c43210ebb089294c923f88</update_guid>
+        <update_guid_history>e8778237e9c43210ebb089294c923f88:1181742587</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1795292_reimbu_0.hr_manager">a338467783c43210c31199c0deaad3e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 18:33:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>40640d81a7b8462890fd0d720976d8c9</sys_id>
+        <sys_metadata>19570ef383c43210c31199c0deaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1795292_reimbu_0.hr_manager</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_19570ef383c43210c31199c0deaad3e2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_19570ef383c43210c31199c0deaad3e2">e477823783c43210c31199c0deaad389</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 18:33:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

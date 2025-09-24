@@ -8,7 +8,7 @@
         <location/>
         <match_all>false</match_all>
         <name>Refund Applicant Users </name>
-        <role name="x_1795292_reimbu_0.user">f4b7fe0783803210c31199c0deaad313</role>
+        <role>f4b7fe0783803210c31199c0deaad313</role>
         <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
 * Populate `answer` with true/false or evaluate to true/false
 * The script is evaluated in the scope the user criteria is defined
