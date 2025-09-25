@@ -58,26 +58,26 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Awaiting for payment</label>
+            <label>Awainting for Approval</label>
             <language>en</language>
             <name>x_1795292_reimbu_0_reimbursement</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 17:06:57</sys_created_on>
+            <sys_created_on>2025-09-25 20:48:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 17:06:57</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2025-09-25 20:48:35</sys_updated_on>
+            <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Awaiting for payment</label>
             <language>en</language>
             <name>x_1795292_reimbu_0_reimbursement</name>
             <sequence>3</sequence>
@@ -88,7 +88,26 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-24 13:35:49</sys_updated_on>
+            <sys_updated_on>2025-09-25 20:48:35</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_1795292_reimbu_0_reimbursement</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 17:06:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 20:48:35</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,15 +118,15 @@
             <label>Reproved</label>
             <language>en</language>
             <name>x_1795292_reimbu_0_reimbursement</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-09-22 17:06:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 17:06:57</sys_updated_on>
+            <sys_updated_on>2025-09-25 20:48:35</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,15 +137,15 @@
             <label>Closed Skipped</label>
             <language>en</language>
             <name>x_1795292_reimbu_0_reimbursement</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-09-22 17:06:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 17:06:57</sys_updated_on>
+            <sys_updated_on>2025-09-25 20:48:35</sys_updated_on>
             <value>7</value>
         </sys_choice>
     </sys_choice>

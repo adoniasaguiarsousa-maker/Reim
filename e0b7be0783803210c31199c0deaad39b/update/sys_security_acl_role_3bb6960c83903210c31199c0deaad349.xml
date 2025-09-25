@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:16:17</sys_created_on>
+        <sys_id>3bb6960c83903210c31199c0deaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1795292_reimbu_0.tech_resolver</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_security_acl display_value="x_1795292_reimbu_0_reimbursement">cfb6da0c83903210c31199c0deaad33a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3bb6960c83903210c31199c0deaad349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:16:17</sys_updated_on>
+        <sys_user_role display_value="x_1795292_reimbu_0.tech_resolver" name="x_1795292_reimbu_0.tech_resolver">18d8a27f83483210c31199c0deaad336</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

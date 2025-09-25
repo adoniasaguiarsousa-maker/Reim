@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Free currency APIKEY</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1795292_reimbu_0.apikey</name>
+        <read_roles/>
+        <suffix>apikey</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 16:22:42</sys_created_on>
+        <sys_id>43b3b60083543210c31199c0deaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1795292_reimbu_0.apikey</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>sys_properties_43b3b60083543210c31199c0deaad337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 16:22:42</sys_updated_on>
+        <type>string</type>
+        <value>fca_live_wJXKPQWOY1kBt7xvVcUibkjmCVIGwBxZhsCWKmRe</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=43b3b60083543210c31199c0deaad337"/>
+</record_update>

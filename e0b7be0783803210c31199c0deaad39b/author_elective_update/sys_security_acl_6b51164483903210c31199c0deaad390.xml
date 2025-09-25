@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1795292_reimbu_0_reimbursement">category_type=45ddc01383483210c31199c0deaad341^EQ<item display_table="x_1795292_reimbu_0_reimbursement_category" display_value="Tech Reimbursement" endquery="false" field="category_type" goto="false" newquery="false" operator="=" or="false" value="45ddc01383483210c31199c0deaad341"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition table="x_1795292_reimbu_0_reimbursement">category_type=45ddc01383483210c31199c0deaad341^EQ<item display_table="x_1795292_reimbu_0_reimbursement_category" display_value="Tech Reimbursement" endquery="false" field="category_type" goto="false" newquery="false" operator="=" or="false" value="45ddc01383483210c31199c0deaad341"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_type>allow</decision_type>
+        <description>Allow read for records in x_1795292_reimbu_0_reimbursement if the record matches the criteria (category_type=45ddc01383483210c31199c0deaad341^EQ), for users with role x_1795292_reimbu_0.tech_resolver, and if the ACL condition (category_type=45ddc01383483210c31199c0deaad341^EQ) evaluates to true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1795292_reimbu_0_reimbursement</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 13:54:30</sys_created_on>
+        <sys_id>6b51164483903210c31199c0deaad390</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_1795292_reimbu_0_reimbursement</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>sys_security_acl_6b51164483903210c31199c0deaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:09:00</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>sys_security_acl_6b51164483903210c31199c0deaad390</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_1795292_reimbu_0_reimbursement">category_type=45ddc01383483210c31199c0deaad341^EQ<item display_table="x_1795292_reimbu_0_reimbursement_category" display_value="Tech Reimbursement" endquery="false" field="category_type" goto="false" newquery="false" operator="=" or="false" value="45ddc01383483210c31199c0deaad341"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition table="x_1795292_reimbu_0_reimbursement">category_type=45ddc01383483210c31199c0deaad341^EQ<item display_table="x_1795292_reimbu_0_reimbursement_category" display_value="Tech Reimbursement" endquery="false" field="category_type" goto="false" newquery="false" operator="=" or="false" value="45ddc01383483210c31199c0deaad341"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow read for records in x_1795292_reimbu_0_reimbursement if the record matches the criteria (category_type=45ddc01383483210c31199c0deaad341^EQ), for users with role x_1795292_reimbu_0.tech_resolver, and if the ACL condition (category_type=45ddc01383483210c31199c0deaad341^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_1795292_reimbu_0_reimbursement</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-25 13:54:30</sys_created_on><sys_id>6b51164483903210c31199c0deaad390</sys_id><sys_mod_count>5</sys_mod_count><sys_name>x_1795292_reimbu_0_reimbursement</sys_name><sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package><sys_policy/><sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope><sys_update_name>sys_security_acl_6b51164483903210c31199c0deaad390</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-25 14:09:00</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1354060601</payload_hash>
+        <record_name>x_1795292_reimbu_0_reimbursement</record_name>
+        <reverted_from/>
+        <source>0a58d30f83043210c31199c0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:09:00</sys_created_on>
+        <sys_id>19455a8883903210c31199c0deaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1998134bb240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:09:00</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8d455a881d903210ffc20a20b688f6fb</update_guid>
+        <update_guid_history>8d455a881d903210ffc20a20b688f6fb:1354060601,5005d288bd903210e565d0274b800481:716209134,ada316088b903210b684eeee42f5721e:1680492781,a31392c45c903210d0bc2112b21c2cdd:-823877752,5e62da84939032108f64b8820ffcf12b:1354060601,70f1de44759032104ab7f40f155657fe:-1774349563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0f9d9f0e6ceb4898a7fee4e7a9e82b10</sys_id>
+        <sys_metadata>6b51164483903210c31199c0deaad390</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1795292_reimbu_0_reimbursement</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_parent display_value="x_1795292_reimbu_0_reimbursement">bd387a4783803210c31199c0deaad3c3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_scope_delete display_value="">adc3e56a9711409281d675f544145044</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6b51164483903210c31199c0deaad390</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6b51164483903210c31199c0deaad390">19455a8883903210c31199c0deaad3fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
