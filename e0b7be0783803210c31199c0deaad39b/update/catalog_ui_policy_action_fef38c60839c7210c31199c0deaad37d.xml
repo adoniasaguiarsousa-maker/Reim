@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Reimbursement Now">30f26b4b83443210c31199c0deaad3be</catalog_item>
+        <catalog_variable>IO:0ccde78783843210c31199c0deaad327</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>300</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 16:51:12</sys_created_on>
+        <sys_id>fef38c60839c7210c31199c0deaad37d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Reimbursement Now" source="x_1795292_reimbu_0">e0b7be0783803210c31199c0deaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement Now">e0b7be0783803210c31199c0deaad39b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fef38c60839c7210c31199c0deaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 16:52:24</sys_updated_on>
+        <table/>
+        <ui_policy display_value="All info is Mandatory">2b738460839c7210c31199c0deaad352</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>description</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=fef38c60839c7210c31199c0deaad37d"/>
+</record_update>
